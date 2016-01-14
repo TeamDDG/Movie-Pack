@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 1,
-    "description": "\u25b7 A Resource Pack for your Minecraft Machinimas"
+    "description": "ChatColor.GOLD + " \u00BB Kicked \u00BB " + TeamUtils.getTeamByPlayer(kicked).getColor() + kicked.getDisplayName() + ChatColor.GOLD + " \u00BB " + reason);
+            kicked.kickPlayer(ChatColor.RED + "Kicked" + ChatColor.GOLD + "  \u00BB  " + ChatColor.AQUA + reason);"
   }
 }
